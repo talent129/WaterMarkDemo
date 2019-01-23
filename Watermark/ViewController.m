@@ -43,7 +43,7 @@
     
     //4. 加载水印图片 绘制水印图片/(绘制水印文字)
     //绘制水印文字
-    NSString *str = @"cai-waterMark";
+    NSString *str = @"waterMark";
     NSDictionary *attributes = @{NSFontAttributeName : [UIFont systemFontOfSize:12]};
     [str drawAtPoint:CGPointMake(30, 30) withAttributes:attributes];
     
